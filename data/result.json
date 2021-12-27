@@ -1,0 +1,2000 @@
+[
+  {
+    "state": "JOHOR",
+    "candidate": "SANTHARA KUMAR A/L RAMANAIDU",
+    "party": "PKR",
+    "voters": 24060,
+    "status": "MENANG",
+    "code": "P140",
+    "constituency": "SEGAMAT"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "NATRAH BINTI ISMAIL",
+    "party": "PKR",
+    "voters": 19559,
+    "status": "MENANG",
+    "code": "P141",
+    "constituency": "SEKIJANG"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "PANG HOK LIONG",
+    "party": "PKR",
+    "voters": 16977,
+    "status": "MENANG",
+    "code": "P142",
+    "constituency": "LABIS"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "MAHIADDIN BIN MD YASIN",
+    "party": "PKR",
+    "voters": 23558,
+    "status": "MENANG",
+    "code": "P143",
+    "constituency": "PAGOH"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "SYED IBRAHIM BIN SYED NOR",
+    "party": "PKR",
+    "voters": 34706,
+    "status": "MENANG",
+    "code": "P144",
+    "constituency": "LEDANG"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "YEO BEE YIN",
+    "party": "PKR",
+    "voters": 38718,
+    "status": "MENANG",
+    "code": "P145",
+    "constituency": "BAKRI"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "SYED SADDIQ BIN SYED ABDUL RAHMAN",
+    "party": "PKR",
+    "voters": 22341,
+    "status": "MENANG",
+    "code": "P146",
+    "constituency": "MUAR"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "NORAINI BINTI AHMAD",
+    "party": "BN",
+    "voters": 24481,
+    "status": "MENANG",
+    "code": "P147",
+    "constituency": "PARIT SULONG"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "WEE KA SIONG",
+    "party": "BN",
+    "voters": 17076,
+    "status": "MENANG",
+    "code": "P148",
+    "constituency": "AYER HITAM"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "SHARUDDIN BIN MD SALLEH",
+    "party": "PKR",
+    "voters": 21511,
+    "status": "MENANG",
+    "code": "P149",
+    "constituency": "SRI GADING"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "MOHD RASHID BIN HASNON",
+    "party": "PKR",
+    "voters": 45929,
+    "status": "MENANG",
+    "code": "P150",
+    "constituency": "BATU PAHAT"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "MASZLEE BIN MALIK",
+    "party": "PKR",
+    "voters": 18157,
+    "status": "MENANG",
+    "code": "P151",
+    "constituency": "SIMPANG RENGGAM"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "WONG SHU QI",
+    "party": "PKR",
+    "voters": 47671,
+    "status": "MENANG",
+    "code": "P152",
+    "constituency": "KLUANG"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "HISHAMMUDDIN BIN DATUK HUSSEIN",
+    "party": "BN",
+    "voters": 21353,
+    "status": "MENANG",
+    "code": "P153",
+    "constituency": "SEMBRONG"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "ABD. LATIFF BIN AHMAD",
+    "party": "BN",
+    "voters": 19806,
+    "status": "MENANG",
+    "code": "P154",
+    "constituency": "MERSING"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "ADHAM BIN BABA",
+    "party": "BN",
+    "voters": 20142,
+    "status": "MENANG",
+    "code": "P155",
+    "constituency": "TENGGARA"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "HALIMAH BINTI MOHD SADIQUE",
+    "party": "BN",
+    "voters": 26407,
+    "status": "MENANG",
+    "code": "P156",
+    "constituency": "KOTA TINGGI"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "AZALINA BINTI OTHMAN",
+    "party": "BN",
+    "voters": 21829,
+    "status": "MENANG",
+    "code": "P157",
+    "constituency": "PENGERANG"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "CHOONG SHIAU YOON",
+    "party": "PKR",
+    "voters": 64535,
+    "status": "MENANG",
+    "code": "P158",
+    "constituency": "TEBRAU"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "HASSAN BIN ABDUL KARIM",
+    "party": "PKR",
+    "voters": 61615,
+    "status": "MENANG",
+    "code": "P159",
+    "constituency": "PASIR GUDANG"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "AKMAL NASRULLAH BIN MOHD NASIR",
+    "party": "PKR",
+    "voters": 50052,
+    "status": "MENANG",
+    "code": "P160",
+    "constituency": "JOHOR BAHRU"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "SALAHUDDIN BIN AYUB",
+    "party": "PKR",
+    "voters": 55447,
+    "status": "MENANG",
+    "code": "P161",
+    "constituency": "PULAI"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "LIM KIT SIANG",
+    "party": "PKR",
+    "voters": 80726,
+    "status": "MENANG",
+    "code": "P162",
+    "constituency": "ISKANDAR PUTERI"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "TEO NIE CHING",
+    "party": "PKR",
+    "voters": 55312,
+    "status": "MENANG",
+    "code": "P163",
+    "constituency": "KULAI"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "AHMAD BIN MASLAN",
+    "party": "BN",
+    "voters": 21132,
+    "status": "MENANG",
+    "code": "P164",
+    "constituency": "PONTIAN"
+  },
+  {
+    "state": "JOHOR",
+    "candidate": "MD FARID BIN MD RAFIK",
+    "party": "PKR",
+    "voters": 21255,
+    "status": "MENANG",
+    "code": "P165",
+    "constituency": "TANJUNG PIAI"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "MAHATHIR BIN MOHAMAD",
+    "party": "PKR",
+    "voters": 18954,
+    "status": "MENANG",
+    "code": "P004",
+    "constituency": "LANGKAWI"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "MUKHRIZ MAHATHIR",
+    "party": "PKR",
+    "voters": 18695,
+    "status": "MENANG",
+    "code": "P005",
+    "constituency": "JERLUN"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "AMIRUDDIN BIN HAMZAH",
+    "party": "PKR",
+    "voters": 29984,
+    "status": "MENANG",
+    "code": "P006",
+    "constituency": "KUBANG PASU"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "MAHDZIR BIN KHALID",
+    "party": "BN",
+    "voters": 16384,
+    "status": "MENANG",
+    "code": "P007",
+    "constituency": "PADANG TERAP"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "MAHFUZ BIN OMAR",
+    "party": "PKR",
+    "voters": 28959,
+    "status": "MENANG",
+    "code": "P008",
+    "constituency": "POKOK SENA"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "CHAN MING KAI",
+    "party": "PKR",
+    "voters": 32475,
+    "status": "MENANG",
+    "code": "P009",
+    "constituency": "ALOR SETAR"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "AZMAN BIN ISMAIL",
+    "party": "PKR",
+    "voters": 36624,
+    "status": "MENANG",
+    "code": "P010",
+    "constituency": "KUALA KEDAH"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "AWANG BIN HASHIM",
+    "party": "PAS",
+    "voters": 26536,
+    "status": "MENANG",
+    "code": "P011",
+    "constituency": "PENDANG"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "SABRI BIN AZIT",
+    "party": "PAS",
+    "voters": 22312,
+    "status": "MENANG",
+    "code": "P012",
+    "constituency": "JERAI"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "AHMAD TARMIZI BIN SULAIMAN",
+    "party": "PAS",
+    "voters": 20088,
+    "status": "MENANG",
+    "code": "P013",
+    "constituency": "SIK"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "NOR AZRINA BINTI SURIP",
+    "party": "PKR",
+    "voters": 30902,
+    "status": "MENANG",
+    "code": "P014",
+    "constituency": "MERBOK"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "JOHARI BIN ABDUL",
+    "party": "PKR",
+    "voters": 45532,
+    "status": "MENANG",
+    "code": "P015",
+    "constituency": "SUNGAI PETANI"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "ABDUL AZEEZ BIN ABDUL RAHIM",
+    "party": "BN",
+    "voters": 38557,
+    "status": "MENANG",
+    "code": "P016",
+    "constituency": "BALING"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "KARUPAIYA A/L MUTUSAMI",
+    "party": "PKR",
+    "voters": 31724,
+    "status": "MENANG",
+    "code": "P017",
+    "constituency": "PADANG SERAI"
+  },
+  {
+    "state": "KEDAH",
+    "candidate": "SAIFUDDIN NASUTION BIN ISMAIL",
+    "party": "PKR",
+    "voters": 23159,
+    "status": "MENANG",
+    "code": "P018",
+    "constituency": "KULIM-BANDAR BAHARU"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "CHE ABDULLAH BIN MAT NAWI",
+    "party": "PAS",
+    "voters": 47041,
+    "status": "MENANG",
+    "code": "P019",
+    "constituency": "TUMPAT"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "AHMAD MARZUK BIN SHAARY",
+    "party": "PAS",
+    "voters": 32592,
+    "status": "MENANG",
+    "code": "P020",
+    "constituency": "PENGKALAN CHEPA"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "TAKIYUDDIN BIN HASSAN",
+    "party": "PAS",
+    "voters": 28291,
+    "status": "MENANG",
+    "code": "P021",
+    "constituency": "KOTA BHARU"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "AHMAD FADHLI BIN SHAARI",
+    "party": "PAS",
+    "voters": 28080,
+    "status": "MENANG",
+    "code": "P022",
+    "constituency": "PASIR MAS"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "SITI ZAILAH BINTI MOHD YUSOFF",
+    "party": "PAS",
+    "voters": 24581,
+    "status": "MENANG",
+    "code": "P023",
+    "constituency": "RANTAU PANJANG"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "TUAN IBRAHIM BIN TUAN MAN",
+    "party": "PAS",
+    "voters": 35620,
+    "status": "MENANG",
+    "code": "P024",
+    "constituency": "KUBANG KERIAN"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "NIK MOHAMAD ABDUH BIN NIK ABDUL AZIZ",
+    "party": "PAS",
+    "voters": 36188,
+    "status": "MENANG",
+    "code": "P025",
+    "constituency": "BACHOK"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "ANNUAR BIN MUSA",
+    "party": "BN",
+    "voters": 25467,
+    "status": "MENANG",
+    "code": "P026",
+    "constituency": "KETEREH"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "IKMAL HISHAM BIN ABDUL AZIZ",
+    "party": "BN",
+    "voters": 28152,
+    "status": "MENANG",
+    "code": "P027",
+    "constituency": "TANAH MERAH"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "NIK MUHAMMAD ZAWAWI BIN SALLEH",
+    "party": "PAS",
+    "voters": 32307,
+    "status": "MENANG",
+    "code": "P028",
+    "constituency": "PASIR PUTEH"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "AHMAD JAZLAN BIN YAAKUB",
+    "party": "BN",
+    "voters": 26076,
+    "status": "MENANG",
+    "code": "P029",
+    "constituency": "MACHANG"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "MUSTAPA BIN MOHAMED",
+    "party": "BN",
+    "voters": 21665,
+    "status": "MENANG",
+    "code": "P030",
+    "constituency": "JELI"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "ABDUL LATIFF BIN ABDUL RAHMAN",
+    "party": "PAS",
+    "voters": 28903,
+    "status": "MENANG",
+    "code": "P031",
+    "constituency": "KUALA KRAI"
+  },
+  {
+    "state": "KELANTAN",
+    "candidate": "TENGKU RAZALEIGH BIN TENGKU MOHD HAMZAH",
+    "party": "BN",
+    "voters": 19426,
+    "status": "MENANG",
+    "code": "P032",
+    "constituency": "GUA MUSANG"
+  },
+  {
+    "state": "MELAKA",
+    "candidate": "MAS ERMIEYATI BINTI SAMSUDIN",
+    "party": "BN",
+    "voters": 22898,
+    "status": "MENANG",
+    "code": "P134",
+    "constituency": "MASJID TANAH"
+  },
+  {
+    "state": "MELAKA",
+    "candidate": "MOHD REDZUAN BIN MD YUSOF",
+    "party": "PKR",
+    "voters": 29330,
+    "status": "MENANG",
+    "code": "P135",
+    "constituency": "ALOR GAJAH"
+  },
+  {
+    "state": "MELAKA",
+    "candidate": "RUSNAH BINTI ALUAI",
+    "party": "PKR",
+    "voters": 32420,
+    "status": "MENANG",
+    "code": "P136",
+    "constituency": "TANGGA BATU"
+  },
+  {
+    "state": "MELAKA",
+    "candidate": "SHAMSUL ISKANDAR @ YUSRE BIN MOHD AKIN",
+    "party": "PKR",
+    "voters": 39067,
+    "status": "MENANG",
+    "code": "P137",
+    "constituency": "HANG TUAH JAYA"
+  },
+  {
+    "state": "MELAKA",
+    "candidate": "KHOO POAY TIONG",
+    "party": "PKR",
+    "voters": 76518,
+    "status": "MENANG",
+    "code": "P138",
+    "constituency": "KOTA MELAKA"
+  },
+  {
+    "state": "MELAKA",
+    "candidate": "AHMAD BIN HAMZAH",
+    "party": "BN",
+    "voters": 26560,
+    "status": "MENANG",
+    "code": "P139",
+    "constituency": "JASIN"
+  },
+  {
+    "state": "NEGERI SEMBILAN",
+    "candidate": "JALALUDDIN BIN ALIAS",
+    "party": "BN",
+    "voters": 19062,
+    "status": "MENANG",
+    "code": "P126",
+    "constituency": "JELEBU"
+  },
+  {
+    "state": "NEGERI SEMBILAN",
+    "candidate": "HAJI MOHD SALIM BIN SHARIF @ MOHD SHARIF",
+    "party": "BN",
+    "voters": 26819,
+    "status": "MENANG",
+    "code": "P127",
+    "constituency": "JEMPOL"
+  },
+  {
+    "state": "NEGERI SEMBILAN",
+    "candidate": "LOKE SIEW FOOK",
+    "party": "PKR",
+    "voters": 55503,
+    "status": "MENANG",
+    "code": "P128",
+    "constituency": "SEREMBAN"
+  },
+  {
+    "state": "NEGERI SEMBILAN",
+    "candidate": "EDDIN SYAZLEE BIN SHITH",
+    "party": "PKR",
+    "voters": 18045,
+    "status": "MENANG",
+    "code": "P129",
+    "constituency": "KUALA PILAH"
+  },
+  {
+    "state": "NEGERI SEMBILAN",
+    "candidate": "CHA KEE CHIN",
+    "party": "PKR",
+    "voters": 61806,
+    "status": "MENANG",
+    "code": "P130",
+    "constituency": "RASAH"
+  },
+  {
+    "state": "NEGERI SEMBILAN",
+    "candidate": "KHAIRY JAMALUDDIN ABU BAKAR",
+    "party": "BN",
+    "voters": 36096,
+    "status": "MENANG",
+    "code": "P131",
+    "constituency": "REMBAU"
+  },
+  {
+    "state": "NEGERI SEMBILAN",
+    "candidate": "DANYAL BALAGOPAL ABDULLAH",
+    "party": "PKR",
+    "voters": 36225,
+    "status": "MENANG",
+    "code": "P132",
+    "constituency": "PORT DICKSON"
+  },
+  {
+    "state": "NEGERI SEMBILAN",
+    "candidate": "HASAN BIN BAHROM",
+    "party": "PKR",
+    "voters": 22435,
+    "status": "MENANG",
+    "code": "P133",
+    "constituency": "TAMPIN"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "SIVARAJ A/L CHANDRAN",
+    "party": "BN",
+    "voters": 10307,
+    "status": "MENANG",
+    "code": "P078",
+    "constituency": "CAMERON HIGHLANDS"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "ABDUL RAHMAN BIN MOHAMAD",
+    "party": "BN",
+    "voters": 13995,
+    "status": "MENANG",
+    "code": "P079",
+    "constituency": "LIPIS"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "TENGKU ZULPURI SHAH BIN RAJA PUJI",
+    "party": "PKR",
+    "voters": 20659,
+    "status": "MENANG",
+    "code": "P080",
+    "constituency": "RAUB"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "AHMAD NAZLAN BIN IDRIS",
+    "party": "BN",
+    "voters": 22640,
+    "status": "MENANG",
+    "code": "P081",
+    "constituency": "JERANTUT"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "SAIFUDDIN BIN ABDULLAH",
+    "party": "PKR",
+    "voters": 28578,
+    "status": "MENANG",
+    "code": "P082",
+    "constituency": "INDERA MAHKOTA"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "FUZIAH BINTI SALLEH",
+    "party": "PKR",
+    "voters": 22807,
+    "status": "MENANG",
+    "code": "P083",
+    "constituency": "KUANTAN"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "MOHD SHAHAR BIN ABDULLAH",
+    "party": "BN",
+    "voters": 19033,
+    "status": "MENANG",
+    "code": "P084",
+    "constituency": "PAYA BESAR"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "MOHD NAJIB BIN TUN ABD RAZAK",
+    "party": "BN",
+    "voters": 43854,
+    "status": "MENANG",
+    "code": "P085",
+    "constituency": "PEKAN"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "ISMAIL BIN ABD. MUTTALIB",
+    "party": "BN",
+    "voters": 16064,
+    "status": "MENANG",
+    "code": "P086",
+    "constituency": "MARAN"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "ISMAIL BIN MOHAMED SAID",
+    "party": "BN",
+    "voters": 18058,
+    "status": "MENANG",
+    "code": "P087",
+    "constituency": "KUALA KRAU"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "MOHD. ANUAR BIN MOHD TAHIR",
+    "party": "PKR",
+    "voters": 23998,
+    "status": "MENANG",
+    "code": "P088",
+    "constituency": "TEMERLOH"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "WONG TACK",
+    "party": "PKR",
+    "voters": 25716,
+    "status": "MENANG",
+    "code": "P089",
+    "constituency": "BENTONG"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "ISMAIL SABRI BIN YAAKOB",
+    "party": "BN",
+    "voters": 20760,
+    "status": "MENANG",
+    "code": "P090",
+    "constituency": "BERA"
+  },
+  {
+    "state": "PAHANG",
+    "candidate": "HASAN BIN ARIFIN",
+    "party": "BN",
+    "voters": 26628,
+    "status": "MENANG",
+    "code": "P091",
+    "constituency": "ROMPIN"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "HASBULLAH BIN OSMAN",
+    "party": "BN",
+    "voters": 13243,
+    "status": "MENANG",
+    "code": "P054",
+    "constituency": "GERIK"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "SHAMSUL ANUAR BIN NASARAH",
+    "party": "BN",
+    "voters": 12523,
+    "status": "MENANG",
+    "code": "P055",
+    "constituency": "LENGGONG"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "HAMZAH BIN ZAINUDIN",
+    "party": "BN",
+    "voters": 18184,
+    "status": "MENANG",
+    "code": "P056",
+    "constituency": "LARUT"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "MUJAHID BIN YUSOF",
+    "party": "PKR",
+    "voters": 16753,
+    "status": "MENANG",
+    "code": "P057",
+    "constituency": "PARIT BUNTAR"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "NOOR AZMI BIN GHAZALI",
+    "party": "BN",
+    "voters": 17220,
+    "status": "MENANG",
+    "code": "P058",
+    "constituency": "BAGAN SERAI"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "SYED ABU HUSSIN BIN HAFIZ SYED ABDUL FASAL",
+    "party": "BN",
+    "voters": 22450,
+    "status": "MENANG",
+    "code": "P059",
+    "constituency": "BUKIT GANTANG"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "TEH KOK LIM",
+    "party": "PKR",
+    "voters": 42997,
+    "status": "MENANG",
+    "code": "P060",
+    "constituency": "TAIPING"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "MOHAMED NAZRI BIN ABDUL AZIZ",
+    "party": "BN",
+    "voters": 10491,
+    "status": "MENANG",
+    "code": "P061",
+    "constituency": "PADANG RENGAS"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "KESAVAN A/L SUBRAMANIAM",
+    "party": "PKR",
+    "voters": 20817,
+    "status": "MENANG",
+    "code": "P062",
+    "constituency": "SUNGAI SIPUT"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "AHMAD FAIZAL BIN AZUMU",
+    "party": "PKR",
+    "voters": 38661,
+    "status": "MENANG",
+    "code": "P063",
+    "constituency": "TAMBUN"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "WONG KAH WOH",
+    "party": "PKR",
+    "voters": 56519,
+    "status": "MENANG",
+    "code": "P064",
+    "constituency": "IPOH TIMOR"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "M.KULASEGARAN A/L V.MURUGESON",
+    "party": "PKR",
+    "voters": 55613,
+    "status": "MENANG",
+    "code": "P065",
+    "constituency": "IPOH BARAT"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "SIVAKUMAR A/L VARATHARAJU NAIDU",
+    "party": "PKR",
+    "voters": 52850,
+    "status": "MENANG",
+    "code": "P066",
+    "constituency": "BATU GAJAH"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "MASTURA BINTI MOHD YAZID",
+    "party": "BN",
+    "voters": 12102,
+    "status": "MENANG",
+    "code": "P067",
+    "constituency": "KUALA KANGSAR"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "NGEH KOO HAM",
+    "party": "PKR",
+    "voters": 41231,
+    "status": "MENANG",
+    "code": "P068",
+    "constituency": "BERUAS"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "MOHD NIZAR BIN ZAKARIA",
+    "party": "BN",
+    "voters": 14035,
+    "status": "MENANG",
+    "code": "P069",
+    "constituency": "PARIT"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "SU KEONG SIONG",
+    "party": "PKR",
+    "voters": 30216,
+    "status": "MENANG",
+    "code": "P070",
+    "constituency": "KAMPAR"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "LEE BOON CHYE",
+    "party": "PKR",
+    "voters": 48923,
+    "status": "MENANG",
+    "code": "P071",
+    "constituency": "GOPENG"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "SARAVANAN A/L MURUGAN",
+    "party": "BN",
+    "voters": 16086,
+    "status": "MENANG",
+    "code": "P072",
+    "constituency": "TAPAH"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "TAJUDDIN BIN ABDUL RAHMAN",
+    "party": "BN",
+    "voters": 20003,
+    "status": "MENANG",
+    "code": "P073",
+    "constituency": "PASIR SALAK"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "MOHD HATTA BIN MD RAMLI",
+    "party": "PKR",
+    "voters": 21955,
+    "status": "MENANG",
+    "code": "P074",
+    "constituency": "LUMUT"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "AHMAD ZAHID BIN HAMIDI",
+    "party": "BN",
+    "voters": 18909,
+    "status": "MENANG",
+    "code": "P075",
+    "constituency": "BAGAN DATUK"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "NGA KOR MING",
+    "party": "PKR",
+    "voters": 29170,
+    "status": "MENANG",
+    "code": "P076",
+    "constituency": "TELUK INTAN"
+  },
+  {
+    "state": "PERAK",
+    "candidate": "CHANG LIH KANG",
+    "party": "PKR",
+    "voters": 24672,
+    "status": "MENANG",
+    "code": "P077",
+    "constituency": "TANJONG MALIM"
+  },
+  {
+    "state": "PERLIS",
+    "candidate": "ZAHIDI BIN ZAINUL ABIDIN",
+    "party": "BN",
+    "voters": 15032,
+    "status": "MENANG",
+    "code": "P001",
+    "constituency": "PADANG BESAR"
+  },
+  {
+    "state": "PERLIS",
+    "candidate": "NOOR AMIN BIN AHMAD",
+    "party": "PKR",
+    "voters": 20909,
+    "status": "MENANG",
+    "code": "P002",
+    "constituency": "KANGAR"
+  },
+  {
+    "state": "PERLIS",
+    "candidate": "SHAHIDAN BIN KASSIM",
+    "party": "BN",
+    "voters": 16547,
+    "status": "MENANG",
+    "code": "P003",
+    "constituency": "ARAU"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "REEZAL MERICAN BIN NAINA MERICAN",
+    "party": "BN",
+    "voters": 22459,
+    "status": "MENANG",
+    "code": "P041",
+    "constituency": "KEPALA BATAS"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "SHABUDIN BIN YAHAYA",
+    "party": "BN",
+    "voters": 18547,
+    "status": "MENANG",
+    "code": "P042",
+    "constituency": "TASEK GELUGOR"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "LIM GUAN ENG",
+    "party": "PKR",
+    "voters": 51653,
+    "status": "MENANG",
+    "code": "P043",
+    "constituency": "BAGAN"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "NURUL IZZAH BINTI ANWAR",
+    "party": "PKR",
+    "voters": 35534,
+    "status": "MENANG",
+    "code": "P044",
+    "constituency": "PERMATANG PAUH"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "SIM CHEE KEONG",
+    "party": "PKR",
+    "voters": 63784,
+    "status": "MENANG",
+    "code": "P045",
+    "constituency": "BUKIT MERTAJAM"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "KASTHURIRAANI A/P PATTO",
+    "party": "PKR",
+    "voters": 42683,
+    "status": "MENANG",
+    "code": "P046",
+    "constituency": "BATU KAWAN"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "MANSOR BIN OTHMAN",
+    "party": "PKR",
+    "voters": 35395,
+    "status": "MENANG",
+    "code": "P047",
+    "constituency": "NIBONG TEBAL"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "WONG HON WAI",
+    "party": "PKR",
+    "voters": 50049,
+    "status": "MENANG",
+    "code": "P048",
+    "constituency": "BUKIT BENDERA"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "CHOW KON YEOW",
+    "party": "PKR",
+    "voters": 34663,
+    "status": "MENANG",
+    "code": "P049",
+    "constituency": "TANJONG"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "SANISVARA NETHAJI RAYER A/L RAJAJI",
+    "party": "PKR",
+    "voters": 50700,
+    "status": "MENANG",
+    "code": "P050",
+    "constituency": "JELUTONG"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "RAMKARPAL SINGH A/L KARPAL SINGH",
+    "party": "PKR",
+    "voters": 65622,
+    "status": "MENANG",
+    "code": "P051",
+    "constituency": "BUKIT GELUGOR"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "SIM TZE TZIN",
+    "party": "PKR",
+    "voters": 51555,
+    "status": "MENANG",
+    "code": "P052",
+    "constituency": "BAYAN BARU"
+  },
+  {
+    "state": "PULAU PINANG",
+    "candidate": "MUHAMMAD BAKHTIAR BIN WAN CHIK",
+    "party": "PKR",
+    "voters": 25471,
+    "status": "MENANG",
+    "code": "P053",
+    "constituency": "BALIK PULAU"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "DATUK ABD RAHIM BIN BAKRI",
+    "party": "BN",
+    "voters": 18503,
+    "status": "MENANG",
+    "code": "P167",
+    "constituency": "KUDAT"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "JOHNITY @ MAXIMUS BIN ONGKILI",
+    "party": "BN",
+    "voters": 13033,
+    "status": "MENANG",
+    "code": "P168",
+    "constituency": "KOTA MARUDU"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "ISNARAISSAH MUNIRAH BT MAJILIS @ FAKHARUDY",
+    "party": "WARISAN",
+    "voters": 23429,
+    "status": "MENANG",
+    "code": "P169",
+    "constituency": "KOTA BELUD"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "MADIUS BIN TANGAU",
+    "party": "BN",
+    "voters": 22494,
+    "status": "MENANG",
+    "code": "P170",
+    "constituency": "TUARAN"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "MOHD AZIS BIN JAMMAN",
+    "party": "WARISAN",
+    "voters": 28420,
+    "status": "MENANG",
+    "code": "P171",
+    "constituency": "SEPANGGAR"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "CHAN FOONG HIN",
+    "party": "DAP",
+    "voters": 31632,
+    "status": "MENANG",
+    "code": "P172",
+    "constituency": "KOTA KINABALU"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "AWANG HUSAINI BIN SAHARI",
+    "party": "PKR",
+    "voters": 14106,
+    "status": "MENANG",
+    "code": "P173",
+    "constituency": "PUTATAN"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "IGNATIUS DORELL LEIKING",
+    "party": "WARISAN",
+    "voters": 32470,
+    "status": "MENANG",
+    "code": "P174",
+    "constituency": "PENAMPANG"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "AHMAD BIN HASSAN",
+    "party": "WARISAN",
+    "voters": 17394,
+    "status": "MENANG",
+    "code": "P175",
+    "constituency": "PAPAR"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "ANIFAH BIN AMAN @ HANIFF AMMAN",
+    "party": "BN",
+    "voters": 11942,
+    "status": "MENANG",
+    "code": "P176",
+    "constituency": "KIMANIS"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "DATUK AZIZAH BINTI MOHD DUN",
+    "party": "BN",
+    "voters": 11354,
+    "status": "MENANG",
+    "code": "P177",
+    "constituency": "BEAUFORT"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "YAMANI HAFEZ BIN MUSA",
+    "party": "BN",
+    "voters": 12038,
+    "status": "MENANG",
+    "code": "P178",
+    "constituency": "SIPITANG"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "JONATHAN BIN YASIN",
+    "party": "PKR",
+    "voters": 14880,
+    "status": "MENANG",
+    "code": "P179",
+    "constituency": "RANAU"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "GAPARI BIN KATINGAN @ GEOFFREY KITINGAN",
+    "party": "SOLIDARITI",
+    "voters": 13286,
+    "status": "MENANG",
+    "code": "P180",
+    "constituency": "KENINGAU"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "NOORITA BINTI SUAL",
+    "party": "DAP",
+    "voters": 11363,
+    "status": "MENANG",
+    "code": "P181",
+    "constituency": "TENOM"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "ARTHUR JOSEPH KURUP",
+    "party": "BN",
+    "voters": 11783,
+    "status": "MENANG",
+    "code": "P182",
+    "constituency": "PENSIANGAN"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "DATUK RONALD KIANDEE",
+    "party": "BN",
+    "voters": 13007,
+    "status": "MENANG",
+    "code": "P183",
+    "constituency": "BELURAN"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "DATUK ZAKARIA BIN MOHD. EDRIS @ TUBAU",
+    "party": "BN",
+    "voters": 17799,
+    "status": "MENANG",
+    "code": "P184",
+    "constituency": "LIBARAN"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "LIEW VUI KEONG",
+    "party": "WARISAN",
+    "voters": 12976,
+    "status": "MENANG",
+    "code": "P185",
+    "constituency": "BATU SAPI"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "WONG TIEN FATT @ WONG NYUK FOH",
+    "party": "DAP",
+    "voters": 19094,
+    "status": "MENANG",
+    "code": "P186",
+    "constituency": "SANDAKAN"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "DATO ' SRI MOKTAR BIN RADIN",
+    "party": "BN",
+    "voters": 14465,
+    "status": "MENANG",
+    "code": "P187",
+    "constituency": "KINABATANGAN"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "MOHAMADDIN BIN KETAPI",
+    "party": "WARISAN",
+    "voters": 23352,
+    "status": "MENANG",
+    "code": "P188",
+    "constituency": "SILAM"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "MOHD SHAFIE BIN APDAL",
+    "party": "WARISAN",
+    "voters": 26809,
+    "status": "MENANG",
+    "code": "P189",
+    "constituency": "SEMPORNA"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "LIEW CHIN JIN",
+    "party": "PKR",
+    "voters": 21400,
+    "status": "MENANG",
+    "code": "P190",
+    "constituency": "TAWAU"
+  },
+  {
+    "state": "SABAH",
+    "candidate": "MA'MUN BIN SULAIMAN",
+    "party": "WARISAN",
+    "voters": 18486,
+    "status": "MENANG",
+    "code": "P191",
+    "constituency": "KALABAKAN"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "MORDI ANAK BIMOL",
+    "party": "DAP",
+    "voters": 12771,
+    "status": "MENANG",
+    "code": "P192",
+    "constituency": "MAS GADING"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "WAN JUNAIDI BIN TUANKU JAAFAR",
+    "party": "BN",
+    "voters": 26379,
+    "status": "MENANG",
+    "code": "P193",
+    "constituency": "SANTUBONG"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "FADILLAH BIN YUSOF",
+    "party": "BN",
+    "voters": 28306,
+    "status": "MENANG",
+    "code": "P194",
+    "constituency": "PETRA JAYA"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "KELVIN YII LEE WUEN",
+    "party": "DAP",
+    "voters": 48548,
+    "status": "MENANG",
+    "code": "P195",
+    "constituency": "BANDAR KUCHING"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "CHONG CHIENG JEN",
+    "party": "DAP",
+    "voters": 33060,
+    "status": "MENANG",
+    "code": "P196",
+    "constituency": "STAMPIN"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "RUBIAH BINTI WANG",
+    "party": "BN",
+    "voters": 25070,
+    "status": "MENANG",
+    "code": "P197",
+    "constituency": "KOTA SAMARAHAN"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "WILLIE ANAK MONGIN",
+    "party": "PKR",
+    "voters": 18865,
+    "status": "MENANG",
+    "code": "P198",
+    "constituency": "PUNCAK BORNEO"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "RICHARD RIOT ANAK JAEM",
+    "party": "BN",
+    "voters": 17545,
+    "status": "MENANG",
+    "code": "P199",
+    "constituency": "SERIAN"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "NANCY BINTI SHUKRI",
+    "party": "BN",
+    "voters": 14208,
+    "status": "MENANG",
+    "code": "P200",
+    "constituency": "BATANG SADONG"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "ROHANI BINTI ABDUL KARIM",
+    "party": "BN",
+    "voters": 14204,
+    "status": "MENANG",
+    "code": "P201",
+    "constituency": "BATANG LUPAR"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "MASIR ANAK KUJAT",
+    "party": "BN",
+    "voters": 14141,
+    "status": "MENANG",
+    "code": "P202",
+    "constituency": "SRI AMAN"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "TAMBAT @ JUGAH AK MUYANG",
+    "party": "BEBAS",
+    "voters": 5834,
+    "status": "MENANG",
+    "code": "P203",
+    "constituency": "LUBOK ANTU"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "ROBERT LAWSON CHUAT",
+    "party": "BN",
+    "voters": 12517,
+    "status": "MENANG",
+    "code": "P204",
+    "constituency": "BETONG"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "ALI ANAK BIJU",
+    "party": "PKR",
+    "voters": 11848,
+    "status": "MENANG",
+    "code": "P205",
+    "constituency": "SARATOK"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "YUSUF BIN ABD WAHAB",
+    "party": "BN",
+    "voters": 11402,
+    "status": "MENANG",
+    "code": "P206",
+    "constituency": "TANJONG MANIS"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "AHMAD JOHNIE BIN ZAWAWI",
+    "party": "BN",
+    "voters": 10538,
+    "status": "MENANG",
+    "code": "P207",
+    "constituency": "IGAN"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "WONG LING BIU",
+    "party": "DAP",
+    "voters": 16327,
+    "status": "MENANG",
+    "code": "P208",
+    "constituency": "SARIKEI"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "LARRY SOON @ LARRY SNG WEI SHIEN",
+    "party": "BEBAS",
+    "voters": 10105,
+    "status": "MENANG",
+    "code": "P209",
+    "constituency": "JULAU"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "AGO ANAK DAGANG",
+    "party": "BN",
+    "voters": 9552,
+    "status": "MENANG",
+    "code": "P210",
+    "constituency": "KANOWIT"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "ALICE LAU KIONG YIENG",
+    "party": "DAP",
+    "voters": 29905,
+    "status": "MENANG",
+    "code": "P211",
+    "constituency": "LANANG"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "OSCAR LING CHAI YEW",
+    "party": "DAP",
+    "voters": 33811,
+    "status": "MENANG",
+    "code": "P212",
+    "constituency": "SIBU"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "HANIFAH HAJAR TAIB",
+    "party": "BN",
+    "voters": 13853,
+    "status": "MENANG",
+    "code": "P213",
+    "constituency": "MUKAH"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "BARU BIAN",
+    "party": "PKR",
+    "voters": 11228,
+    "status": "MENANG",
+    "code": "P214",
+    "constituency": "SELANGAU"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "ALEXANDER NANTA LINGGI",
+    "party": "BN",
+    "voters": 14302,
+    "status": "MENANG",
+    "code": "P215",
+    "constituency": "KAPIT"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "UGAK ANAK KUMBONG",
+    "party": "BN",
+    "voters": 11834,
+    "status": "MENANG",
+    "code": "P216",
+    "constituency": "HULU RAJANG"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "TIONG KING SING",
+    "party": "BN",
+    "voters": 27076,
+    "status": "MENANG",
+    "code": "P217",
+    "constituency": "BINTULU"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "LUKANISMAN BIN AWANG SAUNI",
+    "party": "BN",
+    "voters": 12214,
+    "status": "MENANG",
+    "code": "P218",
+    "constituency": "SIBUTI"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "MICHAEL TEO YU KENG",
+    "party": "PKR",
+    "voters": 35739,
+    "status": "MENANG",
+    "code": "P219",
+    "constituency": "MIRI"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "ANYI NGAU",
+    "party": "BN",
+    "voters": 12171,
+    "status": "MENANG",
+    "code": "P220",
+    "constituency": "BARAM"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "HASBI BIN HABIBOLLAH",
+    "party": "BN",
+    "voters": 12589,
+    "status": "MENANG",
+    "code": "P221",
+    "constituency": "LIMBANG"
+  },
+  {
+    "state": "SARAWAK",
+    "candidate": "HENRY SUM AGONG",
+    "party": "BN",
+    "voters": 10037,
+    "status": "MENANG",
+    "code": "P222",
+    "constituency": "LAWAS"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "MOHD FASIAH BIN MOHD FAKEH",
+    "party": "BN",
+    "voters": 12862,
+    "status": "MENANG",
+    "code": "P092",
+    "constituency": "SABAK BERNAM"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "MUSLIMIN BIN YAHAYA",
+    "party": "PKR",
+    "voters": 17350,
+    "status": "MENANG",
+    "code": "P093",
+    "constituency": "SUNGAI BESAR"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "LEOW HSIAD HUI",
+    "party": "PKR",
+    "voters": 40783,
+    "status": "MENANG",
+    "code": "P094",
+    "constituency": "HULU SELANGOR"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "NOH BIN OMAR",
+    "party": "BN",
+    "voters": 17596,
+    "status": "MENANG",
+    "code": "P095",
+    "constituency": "TANJONG KARANG"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "DZULKEFLY BIN AHMAD",
+    "party": "PKR",
+    "voters": 29842,
+    "status": "MENANG",
+    "code": "P096",
+    "constituency": "KUALA SELANGOR"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "WILLIAM LEONG JEE KEEN",
+    "party": "PKR",
+    "voters": 60158,
+    "status": "MENANG",
+    "code": "P097",
+    "constituency": "SELAYANG"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "MOHAMED AZMIN BIN ALI",
+    "party": "PKR",
+    "voters": 75113,
+    "status": "MENANG",
+    "code": "P098",
+    "constituency": "GOMBAK"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "ZURAIDA BINTI KAMARUDDIN",
+    "party": "PKR",
+    "voters": 54307,
+    "status": "MENANG",
+    "code": "P099",
+    "constituency": "AMPANG"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "WAN AZIZAH BINTI WAN ISMAIL",
+    "party": "PKR",
+    "voters": 64733,
+    "status": "MENANG",
+    "code": "P100",
+    "constituency": "PANDAN"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "HASANUDDIN BIN MOHD YUNUS",
+    "party": "PKR",
+    "voters": 49004,
+    "status": "MENANG",
+    "code": "P101",
+    "constituency": "HULU LANGAT"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "ONG KIAN MING",
+    "party": "PKR",
+    "voters": 102557,
+    "status": "MENANG",
+    "code": "P102",
+    "constituency": "BANGI"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "GOBIND SINGH DEO",
+    "party": "PKR",
+    "voters": 60429,
+    "status": "MENANG",
+    "code": "P103",
+    "constituency": "PUCHONG"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "WONG CHEN",
+    "party": "PKR",
+    "voters": 104430,
+    "status": "MENANG",
+    "code": "P104",
+    "constituency": "SUBANG"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "MARIA CHIN BINTI ABDULLAH",
+    "party": "PKR",
+    "voters": 78984,
+    "status": "MENANG",
+    "code": "P105",
+    "constituency": "PETALING JAYA"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "PUA KIAM WEE",
+    "party": "PKR",
+    "voters": 121283,
+    "status": "MENANG",
+    "code": "P106",
+    "constituency": "DAMANSARA"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "SIVARASA A/L K.RASIAH",
+    "party": "PKR",
+    "voters": 43631,
+    "status": "MENANG",
+    "code": "P107",
+    "constituency": "SUNGAI BULOH"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "KHALID BIN ABD SAMAD",
+    "party": "PKR",
+    "voters": 55949,
+    "status": "MENANG",
+    "code": "P108",
+    "constituency": "SHAH ALAM"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "ABDULLAH SANI BIN ABDUL HAMID",
+    "party": "PKR",
+    "voters": 47731,
+    "status": "MENANG",
+    "code": "P109",
+    "constituency": "KAPAR"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "CHARLES ANTHONY A/L R.SANTIAGO",
+    "party": "PKR",
+    "voters": 98279,
+    "status": "MENANG",
+    "code": "P110",
+    "constituency": "KLANG"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "MOHAMAD BIN SABU",
+    "party": "PKR",
+    "voters": 90697,
+    "status": "MENANG",
+    "code": "P111",
+    "constituency": "KOTA RAJA"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "XAVIER JAYAKUMAR A/L ARULANANDAM",
+    "party": "PKR",
+    "voters": 43239,
+    "status": "MENANG",
+    "code": "P112",
+    "constituency": "KUALA LANGAT"
+  },
+  {
+    "state": "SELANGOR",
+    "candidate": "MOHAMED HANIPA BIN MAIDIN",
+    "party": "PKR",
+    "voters": 46740,
+    "status": "MENANG",
+    "code": "P113",
+    "constituency": "SEPANG"
+  },
+  {
+    "state": "TERENGGANU",
+    "candidate": "IDRIS BIN JUSOH",
+    "party": "BN",
+    "voters": 34335,
+    "status": "MENANG",
+    "code": "P033",
+    "constituency": "BESUT"
+  },
+  {
+    "state": "TERENGGANU",
+    "candidate": "SHAHARIZUKIRNAIN BIN ABD KADIR",
+    "party": "PAS",
+    "voters": 35020,
+    "status": "MENANG",
+    "code": "P034",
+    "constituency": "SETIU"
+  },
+  {
+    "state": "TERENGGANU",
+    "candidate": "MOHD KHAIRUDDIN BIN AMAN RAZALI",
+    "party": "PAS",
+    "voters": 37974,
+    "status": "MENANG",
+    "code": "P035",
+    "constituency": "KUALA NERUS"
+  },
+  {
+    "state": "TERENGGANU",
+    "candidate": "AHMAD AMZAD BIN MOHAMED @ HASHIM",
+    "party": "PAS",
+    "voters": 42988,
+    "status": "MENANG",
+    "code": "P036",
+    "constituency": "KUALA TERENGGANU"
+  },
+  {
+    "state": "TERENGGANU",
+    "candidate": "ABDUL HADI BIN AWANG",
+    "party": "PAS",
+    "voters": 53749,
+    "status": "MENANG",
+    "code": "P037",
+    "constituency": "MARANG"
+  },
+  {
+    "state": "TERENGGANU",
+    "candidate": "ROSOL BIN WAHID",
+    "party": "BN",
+    "voters": 30925,
+    "status": "MENANG",
+    "code": "P038",
+    "constituency": "HULU TERENGGANU"
+  },
+  {
+    "state": "TERENGGANU",
+    "candidate": "WAN HASSAN BIN MOHD RAMLI",
+    "party": "PAS",
+    "voters": 40850,
+    "status": "MENANG",
+    "code": "P039",
+    "constituency": "DUNGUN"
+  },
+  {
+    "state": "TERENGGANU",
+    "candidate": "CHE ALIAS BIN HAMID",
+    "party": "PAS",
+    "voters": 39878,
+    "status": "MENANG",
+    "code": "P040",
+    "constituency": "KEMAMAN"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "LIM LIP ENG",
+    "party": "PKR",
+    "voters": 56516,
+    "status": "MENANG",
+    "code": "P114",
+    "constituency": "KEPONG"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "PRABAKARAN A/L M PARAMESWARAN",
+    "party": "BEBAS",
+    "voters": 38125,
+    "status": "MENANG",
+    "code": "P115",
+    "constituency": "BATU"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "DR.TAN YEE KEW",
+    "party": "PKR",
+    "voters": 42178,
+    "status": "MENANG",
+    "code": "P116",
+    "constituency": "WANGSA MAJU"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "YEOH TSEOW SUAN",
+    "party": "PKR",
+    "voters": 53124,
+    "status": "MENANG",
+    "code": "P117",
+    "constituency": "SEGAMBUT"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "NIK NAZMI BIN NIK AHMAD",
+    "party": "PKR",
+    "voters": 34471,
+    "status": "MENANG",
+    "code": "P118",
+    "constituency": "SETIAWANGSA"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "RINA BINTI MOHD HARUN",
+    "party": "PKR",
+    "voters": 23840,
+    "status": "MENANG",
+    "code": "P119",
+    "constituency": "TITIWANGSA"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "FONG KUI LUN",
+    "party": "PKR",
+    "voters": 44516,
+    "status": "MENANG",
+    "code": "P120",
+    "constituency": "BUKIT BINTANG"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "AHMAD FAHMI BIN MOHAMED FADZIL",
+    "party": "PKR",
+    "voters": 33313,
+    "status": "MENANG",
+    "code": "P121",
+    "constituency": "LEMBAH PANTAI"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "TERESA KOK SUH SIM",
+    "party": "PKR",
+    "voters": 63094,
+    "status": "MENANG",
+    "code": "P122",
+    "constituency": "SEPUTEH"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "TAN KOK WAI",
+    "party": "PKR",
+    "voters": 56671,
+    "status": "MENANG",
+    "code": "P123",
+    "constituency": "CHERAS"
+  },
+  {
+    "state": "WP KUALA LUMPUR",
+    "candidate": "KAMARUDIN BIN JAFFAR",
+    "party": "PKR",
+    "voters": 41126,
+    "status": "MENANG",
+    "code": "P124",
+    "constituency": "BANDAR TUN RAZAK"
+  },
+  {
+    "state": "WP LABUAN",
+    "candidate": "ROZMAN BIN ISLI",
+    "party": "BN",
+    "voters": 10164,
+    "status": "MENANG",
+    "code": "P166",
+    "constituency": "LABUAN"
+  },
+  {
+    "state": "WP PUTRAJAYA",
+    "candidate": "TENGKU ADNAN BIN TENGKU MANSOR",
+    "party": "BN",
+    "voters": 12148,
+    "status": "MENANG",
+    "code": "P125",
+    "constituency": "PUTRAJAYA"
+  }
+]
