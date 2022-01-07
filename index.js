@@ -54,7 +54,7 @@ const mergeData = category => {
           wonParty: streamGroup[0].won_party,
           wonCoalition: streamGroup[0].won_coalition,
           result: streamGroup.map(streamGroup => ({
-            party: translateParty(streamGroup.party, 'en'),
+            party: streamGroup.party,
             vote: streamGroup.vote,
             votePct: streamGroup.vote_pct
           }))
