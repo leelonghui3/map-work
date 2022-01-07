@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "nodemonConfig": {
-    "ignore": ["data/*", "output/*"]
+    "ignore": [
+      "data/*",
+      "output/*"
+    ]
   },
   "scripts": {
     "dev": "nodemon index",
@@ -14,7 +17,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.24.0"
+    "axios": "^0.24.0",
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

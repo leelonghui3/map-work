@@ -1,6 +1,9 @@
 const axios = require('axios')
-const result = require('./data/result.json')
+const result = require('./data/scoresheet.json')
+const map = require('./data/ge14-parliament.json')
 const fs = require('fs')
+const _ = require('lodash')
+const { translateParty } = require('./utils/translation')
 
 const getGeoJSON = async () => {
   try {
@@ -12,14 +15,7 @@ const getGeoJSON = async () => {
         if (constituency.code === feature.properties.code) {
           feature.properties = {
             ...feature.properties,
-            ...constituency,
-            person: {
-              age: Math.floor(Math.random(1) * 70),
-              term: Math.floor(Math.random(1) * 3),
-              manifesto: {
-                first: 'lorem ipsum'
-              }
-            }
+            ...constituency
           }
         }
       })
@@ -34,25 +30,61 @@ const getGeoJSON = async () => {
   }
 }
 
-const getList = async () => {
-  try {
-    const res = await axios.get('https://pages.malaysiakini.com/map/par.json')
-    const map = await res.data
+const mergeData = category => {
+  const parData = result.filter(d => d.stream === category)
 
-    const list = map.features.map(feature => ({
-      displayedValue: `${feature.properties.code} ${feature.properties.name}`,
-      name: feature.properties.name,
-      code: feature.properties.code
-    }))
+  const partyList = [...new Set(parData.map(d => d.coalition).sort())]
+  console.log(partyList)
 
-    fs.writeFile('./output/list.json', JSON.stringify(list), err => {
-      if (err) throw err
-      console.log('done')
-    })
-  } catch (error) {
-    console.log(error)
-  }
+  const parGroups = _.groupBy(parData, 'pd_code')
+
+  const output = _.map(parGroups, category => {
+    const streamGroups = _.groupBy(category, 'category')
+
+    return {
+      code: category[0].par_code,
+      name: category[0].parliament,
+      effectiveVotePct: category[0].effective_vote_pct,
+      categoryArr: _.map(streamGroups, streamGroup => {
+        return {
+          category: streamGroup[0].category,
+          categoryEffectiveVotesPct:
+            streamGroup[0].category_effective_votes_pct,
+          totalVote: streamGroup[0].total,
+          wonParty: streamGroup[0].won_party,
+          wonCoalition: streamGroup[0].won_coalition,
+          result: streamGroup.map(streamGroup => ({
+            party: translateParty(streamGroup.party, 'en'),
+            vote: streamGroup.vote,
+            votePct: streamGroup.vote_pct
+          }))
+        }
+      })
+    }
+  })
 }
+
+mergeData('par_all')
+
+// const getList = async () => {
+//   try {
+//     const res = await axios.get('https://pages.malaysiakini.com/map/par.json')
+//     const map = await res.data
+
+//     const list = map.features.map(feature => ({
+//       displayedValue: `${feature.properties.code} ${feature.properties.name}`,
+//       name: feature.properties.name,
+//       code: feature.properties.code
+//     }))
+
+//     fs.writeFile('./output/list.json', JSON.stringify(list), err => {
+//       if (err) throw err
+//       console.log('done')
+//     })
+//   } catch (error) {
+//     console.log(error)
+//   }
+// }
 // getGeoJSON()
 
 // getList()
