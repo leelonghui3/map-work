@@ -30,39 +30,107 @@ const getGeoJSON = async () => {
   }
 }
 
+const outcome = {
+  state: 'state',
+  code: 'P098',
+  name: 'GOMBAK',
+  effectiveVotePct: 95.19,
+  youngestWonParty: 'youngParty',
+  youngestWonCoalition: 'youngCoalition',
+  youngestMajority: 1234,
+  eldestWonParty: 'oldParty',
+  eldestWonCoalition: 'oldCoalition',
+  eldestMajority: 1234,
+  ge14WonParty: 'ge14Party',
+  ge14WonCoalition: 'ge14Coalition',
+  ge14Majority: 1234,
+  eldestResult: {
+    categoryEffectiveVotesPct: 19.35,
+    totalVote: 6325,
+    result: [
+      { party: 'bersatu', vote: 1656, votePct: 26.18 },
+      { party: 'umno', vote: 3360, votePct: 53.12 },
+      { party: 'pas', vote: 1309, votePct: 20.7 }
+    ]
+  },
+  youngestResult: {
+    categoryEffectiveVotesPct: 19.35,
+    totalVote: 6325,
+    result: [
+      { party: 'bersatu', vote: 1656, votePct: 26.18 },
+      { party: 'umno', vote: 3360, votePct: 53.12 },
+      { party: 'pas', vote: 1309, votePct: 20.7 }
+    ]
+  },
+  ge14Result: {
+    categoryEffectiveVotesPct: 19.35,
+    totalVote: 6325,
+    result: [
+      { party: 'bersatu', vote: 1656, votePct: 26.18 },
+      { party: 'umno', vote: 3360, votePct: 53.12 },
+      { party: 'pas', vote: 1309, votePct: 20.7 }
+    ]
+  }
+}
+
 const mergeData = category => {
   const parData = result.filter(d => d.stream === category)
 
-  const partyList = [...new Set(parData.map(d => d.coalition).sort())]
-  console.log(partyList)
+  // filter by state
+  const perlis = _.filter(parData, { state: 'perlis', stream: 'par_all' })
 
-  const parGroups = _.groupBy(parData, 'pd_code')
+  const parGroups = _.groupBy(perlis, 'pd_code')
 
-  const output = _.map(parGroups, category => {
-    const streamGroups = _.groupBy(category, 'category')
+  _.each(parGroups, par => {
+    // const youngest = _.find(par, ['category', 'youngest'])
 
-    return {
-      code: category[0].par_code,
-      name: category[0].parliament,
-      effectiveVotePct: category[0].effective_vote_pct,
-      categoryArr: _.map(streamGroups, streamGroup => {
-        return {
-          category: streamGroup[0].category,
-          categoryEffectiveVotesPct:
-            streamGroup[0].category_effective_votes_pct,
-          totalVote: streamGroup[0].total,
-          wonParty: streamGroup[0].won_party,
-          wonCoalition: streamGroup[0].won_coalition,
-          result: streamGroup.map(streamGroup => ({
-            party: streamGroup.party,
-            vote: streamGroup.vote,
-            votePct: streamGroup.vote_pct
-          }))
-        }
-      })
-    }
+    const {
+      won_party: youngestWonParty,
+      won_coalition: youngestWonCoalition
+    } = _.find(par, ['category', 'youngest'])
+    const {
+      won_party: youngestWonParty,
+      won_coalition: youngestWonCoalition
+    } = _.find(par, ['category', 'eldest'])
+    const {
+      won_party: youngestWonParty,
+      won_coalition: youngestWonCoalition
+    } = _.find(par, ['category', 'youngest'])
   })
 }
+// const mergeData = category => {
+//   const parData = result.filter(d => d.stream === category)
+
+//   const parGroups = _.groupBy(parData, 'pd_code')
+
+//   const output = _.map(parGroups, category => {
+//     const streamGroups = _.groupBy(category, 'category')
+
+//     return {
+//       code: category[0].par_code,
+//       name: category[0].parliament,
+//       effectiveVotePct: category[0].effective_vote_pct,
+//       // wonCoalition:
+//       categoryArr: _.map(streamGroups, streamGroup => {
+//         return {
+//           category: streamGroup[0].category,
+//           categoryEffectiveVotesPct:
+//             streamGroup[0].category_effective_votes_pct,
+//           totalVote: streamGroup[0].total,
+//           wonParty: streamGroup[0].won_party,
+//           wonCoalition: streamGroup[0].won_coalition,
+//           result: streamGroup.map(streamGroup => ({
+//             party: streamGroup.party,
+//             vote: streamGroup.vote,
+//             votePct: streamGroup.vote_pct
+//           }))
+//         }
+//       })
+//     }
+//   })
+
+//   console.log(output[0]['categoryArr'][0]['result'])
+// }
 
 mergeData('par_all')
 
