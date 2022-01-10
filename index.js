@@ -79,14 +79,16 @@ const parseCategoryDataForMap = (constituency, category) => {
     category
   ])
 
+  // get majority //
   const constituencySortedByVote = constituencyFilteredByCategory.sort(
     (a, b) => b.vote - a.vote
   )
 
-  const majority = constituencySortedByVote[1].vote
-  console.log(majority)
+  const majority =
+    constituencySortedByVote[0].vote - constituencySortedByVote[1].vote
+  // -------------------------------- //
 
-  const { won_party, won_coalition } = _.find(constituency, [
+  const { won_party, won_coalition } = _.find(constituencySortedByVote, [
     'category',
     category
   ])
@@ -94,13 +96,35 @@ const parseCategoryDataForMap = (constituency, category) => {
   if (category === 'par_total') {
     return {
       ge14WonParty: won_party,
-      ge14WonCoalition: won_coalition
+      ge14WonCoalition: won_coalition,
+      ge14Majority: majority,
+      ge14Result: {
+        totalVotes: constituencySortedByVote[0].total,
+        categoryEffectiveVotesPct:
+          constituencySortedByVote[0].category_effective_votes_pct,
+        result: _.map(constituencySortedByVote, constituency => ({
+          party: constituency.party,
+          vote: constituency.vote,
+          votePct: constituency.vote_pct
+        }))
+      }
     }
   }
 
   return {
     [`${category}WonParty`]: won_party,
-    [`${category}WonCoalition`]: won_coalition
+    [`${category}WonCoalition`]: won_coalition,
+    [`${category}Majority`]: majority,
+    [`${category}Result`]: {
+      totalVotes: constituencySortedByVote[0].total,
+      categoryEffectiveVotesPct:
+        constituencySortedByVote[0].category_effective_votes_pct,
+      result: _.map(constituencySortedByVote, constituency => ({
+        party: constituency.party,
+        vote: constituency.vote,
+        votePct: constituency.vote_pct
+      }))
+    }
   }
 }
 
@@ -132,10 +156,12 @@ const mergeData = category => {
     code: constituency[0].par_code,
     name: constituency[0].parliament,
     effectiveVotePct: constituency[0].effective_vote_pct,
-    // ...parseCategoryDataForMap(constituency, 'youngest'),
-    // ...parseCategoryDataForMap(constituency, 'eldest'),
+    ...parseCategoryDataForMap(constituency, 'youngest'),
+    ...parseCategoryDataForMap(constituency, 'eldest'),
     ...parseCategoryDataForMap(constituency, 'par_total')
   }))
+
+  console.log(output)
 }
 // const mergeData = category => {
 //   const parData = result.filter(d => d.stream === category)
