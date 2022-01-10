@@ -73,6 +73,37 @@ const outcome = {
   }
 }
 
+const parseCategoryDataForMap = (constituency, category) => {
+  const constituencyFilteredByCategory = _.filter(constituency, [
+    'category',
+    category
+  ])
+
+  const constituencySortedByVote = constituencyFilteredByCategory.sort(
+    (a, b) => b.vote - a.vote
+  )
+
+  const majority = constituencySortedByVote[1].vote
+  console.log(majority)
+
+  const { won_party, won_coalition } = _.find(constituency, [
+    'category',
+    category
+  ])
+
+  if (category === 'par_total') {
+    return {
+      ge14WonParty: won_party,
+      ge14WonCoalition: won_coalition
+    }
+  }
+
+  return {
+    [`${category}WonParty`]: won_party,
+    [`${category}WonCoalition`]: won_coalition
+  }
+}
+
 const mergeData = category => {
   const parData = result.filter(d => d.stream === category)
 
@@ -81,22 +112,30 @@ const mergeData = category => {
 
   const parGroups = _.groupBy(perlis, 'pd_code')
 
-  console.log(parGroups)
+  // _.each(parGroups, constituency => {
+  // let {
+  //   won_party: youngestWonParty,
+  //   won_coalition: youngestWonCoalition
+  // } = _.find(constituency, ['category', 'youngest'])
+  // const {
+  //   won_party: eldestWonParty,
+  //   won_coalition: eldestWonCoalition
+  // } = _.find(constituency, ['category', 'eldest'])
+  // const { won_party: ge14WonParty, won_coalition: ge14WonCoalition } = _.find(
+  //   constituency,
+  //   ['category', 'par_total']
+  // )
+  // console.log(parseCategoryDataForMap(constituency, 'youngest'))
+  // })
 
-  _.each(parGroups, constituency => {
-    let {
-      won_party: youngestWonParty,
-      won_coalition: youngestWonCoalition
-    } = _.find(constituency, ['category', 'youngest'])
-    const {
-      won_party: eldestWonParty,
-      won_coalition: eldestWonCoalition
-    } = _.find(constituency, ['category', 'eldest'])
-    const { won_party: ge14WonParty, won_coalition: ge14WonCoalition } = _.find(
-      constituency,
-      ['category', 'par_total']
-    )
-  })
+  const output = _.map(parGroups, constituency => ({
+    code: constituency[0].par_code,
+    name: constituency[0].parliament,
+    effectiveVotePct: constituency[0].effective_vote_pct,
+    // ...parseCategoryDataForMap(constituency, 'youngest'),
+    // ...parseCategoryDataForMap(constituency, 'eldest'),
+    ...parseCategoryDataForMap(constituency, 'par_total')
+  }))
 }
 // const mergeData = category => {
 //   const parData = result.filter(d => d.stream === category)
