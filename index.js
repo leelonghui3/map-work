@@ -81,21 +81,21 @@ const mergeData = category => {
 
   const parGroups = _.groupBy(perlis, 'pd_code')
 
-  _.each(parGroups, par => {
-    // const youngest = _.find(par, ['category', 'youngest'])
+  console.log(parGroups)
 
-    const {
+  _.each(parGroups, constituency => {
+    let {
       won_party: youngestWonParty,
       won_coalition: youngestWonCoalition
-    } = _.find(par, ['category', 'youngest'])
+    } = _.find(constituency, ['category', 'youngest'])
     const {
-      won_party: youngestWonParty,
-      won_coalition: youngestWonCoalition
-    } = _.find(par, ['category', 'eldest'])
-    const {
-      won_party: youngestWonParty,
-      won_coalition: youngestWonCoalition
-    } = _.find(par, ['category', 'youngest'])
+      won_party: eldestWonParty,
+      won_coalition: eldestWonCoalition
+    } = _.find(constituency, ['category', 'eldest'])
+    const { won_party: ge14WonParty, won_coalition: ge14WonCoalition } = _.find(
+      constituency,
+      ['category', 'par_total']
+    )
   })
 }
 // const mergeData = category => {
