@@ -1,6 +1,5 @@
 const axios = require('axios')
-const result = require('./data/scoresheet.json')
-const map = require('./data/ge14-parliament.json')
+const result = require('./data/scoresheet2.json')
 const fs = require('fs')
 const _ = require('lodash')
 const { translateParty } = require('./utils/translation')
@@ -264,8 +263,9 @@ const mergePDData = async () => {
     const parsedPDs = _.map(pdGroups, pd => {
       return {
         pCode: pd[0].par_code,
-        name: pd[0].parliament,
+        name: pd[0].parliament.toUpperCase(),
         pdCode: pd[0].pd_code,
+        state: pd[0].state.toUpperCase(),
         ...parseCategoryDataForMap(pd, 'dm_total'),
         ...parseCategoryDataForMap(pd, 'youngest'),
         ...parseCategoryDataForMap(pd, 'eldest')
