@@ -1,8 +1,9 @@
 const axios = require('axios')
-const result = require('./data/scoresheet2.json')
+const result = require('./data/scoresheet.json')
 const fs = require('fs')
 const _ = require('lodash')
 const { translateParty } = require('./utils/translation')
+const ge14Race = require('./data/par-ge14-race.json')
 
 // const outcome = {
 //   state: 'state',
@@ -75,7 +76,7 @@ const getGeoJSON = async () => {
 }
 
 // const parseCategoryDataForMap = (constituency, category) => {
-//   if (category === 'youngest' || category === 'eldest') {
+//   if (category === 'youngest' || category === 'oldest') {
 //     if (_.includes(exemptedConstituency, constituency[0].par_code)) {
 //       return null
 //     }
@@ -136,7 +137,7 @@ const getGeoJSON = async () => {
 // }
 
 const parseCategoryDataForMap = (pd, category) => {
-  if (category === 'youngest' || category === 'eldest') {
+  if (category === 'youngest' || category === 'oldest') {
     // if (_.includes(exemptedConstituency, constituency[0].par_code)) {
     //   return null
     // }
@@ -182,6 +183,7 @@ const parseCategoryDataForMap = (pd, category) => {
         totalVotes: pdSortedByVote[0].total,
         categoryPct: pdSortedByVote[0].category_pct,
         result: _.map(pdSortedByVote, constituency => ({
+          coalition: constituency.coalition,
           party: constituency.party,
           vote: constituency.vote,
           votePct: constituency.vote_pct
@@ -198,6 +200,7 @@ const parseCategoryDataForMap = (pd, category) => {
       totalVotes: pdSortedByVote[0].total,
       categoryPct: pdSortedByVote[0].category_pct,
       result: _.map(pdSortedByVote, constituency => ({
+        coalition: constituency.coalition,
         party: constituency.party,
         vote: constituency.vote,
         votePct: constituency.vote_pct
@@ -206,48 +209,73 @@ const parseCategoryDataForMap = (pd, category) => {
   }
 }
 
-// const mergeData = async category => {
-//   try {
-//     const res = await axios.get(
-//       'https://pages.malaysiakini.com/map/ge14-parliament-p.json'
-//     )
-//     const map = await res.data
+const mergeData = async category => {
+  try {
+    const res = await axios.get(
+      'https://pages.malaysiakini.com/map/ge14-parliament-p.json'
+    )
+    const map = await res.data
 
-//     const parData = result.filter(d => d.stream === category)
+    const parData = result.filter(d => d.stream === category)
 
-//     // filter by state
-//     const filteredData = _.filter(parData, { stream: 'par_all' })
+    // filter by state
+    const filteredData = _.filter(parData, { stream: 'par_all' })
 
-//     const parGroups = _.groupBy(filteredData, 'pd_code')
+    const parGroups = _.groupBy(filteredData, 'pd_code')
 
-//     const parsedConsituencies = _.map(parGroups, constituency => ({
-//       code: constituency[0].par_code,
-//       name: constituency[0].parliament,
-//       effectiveVotePct: constituency[0].effective_vote_pct,
-//       ...parseCategoryDataForMap(constituency, 'par_total'),
-//       ...parseCategoryDataForMap(constituency, 'youngest'),
-//       ...parseCategoryDataForMap(constituency, 'eldest')
-//     }))
+    const parsedConstituencies = _.map(parGroups, constituency => ({
+      code: constituency[0].par_code,
+      effectiveVotePct: constituency[0].effective_vote_pct,
+      ...parseCategoryDataForMap(constituency, 'par_total'),
+      ...parseCategoryDataForMap(constituency, 'youngest'),
+      ...parseCategoryDataForMap(constituency, 'oldest')
+    }))
 
-//     map.features.forEach(feature => {
-//       parsedConsituencies.forEach(constituency => {
-//         if (constituency.code === feature.properties.code) {
-//           feature.properties = {
-//             ...feature.properties,
-//             ...constituency
-//           }
-//         }
-//       })
-//     })
+    const output = []
 
-//     // fs.writeFile('./output/parliament.json', JSON.stringify(map), err => {
-//     //   if (err) throw err
-//     //   console.log('done')
-//     // })
-//   } catch (error) {
-//     console.log(error)
-//   }
-// }
+    _.forEach(parsedConstituencies, d => {
+      _.forEach(ge14Race, j => {
+        if (j.parCode === d.code) {
+          const mergedData = {
+            ...d,
+            malay: j.malay,
+            chinese: j.chinese,
+            indian: j.indian,
+            muslimBumiputera: j.muslimBumiputera,
+            'non-MuslimBumiputera': j['non-MuslimBumiputera'],
+            sabahBumiputera: j.sabahBumiputera,
+            others: j.others
+          }
+
+          output.push(mergedData)
+        }
+      })
+    })
+
+    map.features.forEach(feature => {
+      output.forEach(constituency => {
+        if (constituency.code === feature.properties.code) {
+          feature.properties = {
+            ...feature.properties,
+            // pName: feature.properties.name.toUpperCase(),
+            // pCode: feature.properties.code,
+            // state: feature.properties.state.toUpperCase(),
+            ...constituency
+          }
+        }
+      })
+    })
+
+    fs.writeFile('./output/parliament.json', JSON.stringify(map), err => {
+      if (err) throw err
+      console.log('done')
+    })
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+mergeData('par_all')
 
 const mergePDData = async () => {
   try {
@@ -263,20 +291,20 @@ const mergePDData = async () => {
     const parsedPDs = _.map(pdGroups, pd => {
       return {
         pCode: pd[0].par_code,
-        name: pd[0].parliament.toUpperCase(),
-        pdCode: pd[0].pd_code,
+        pName: pd[0].parliament.toUpperCase(),
+        code: pd[0].pd_code,
         state: pd[0].state.toUpperCase(),
         ...parseCategoryDataForMap(pd, 'dm_total'),
         ...parseCategoryDataForMap(pd, 'youngest'),
-        ...parseCategoryDataForMap(pd, 'eldest')
+        ...parseCategoryDataForMap(pd, 'oldest')
       }
     })
 
     map.features.forEach(feature => {
       parsedPDs.forEach(pd => {
-        if (pd.pdCode === feature.properties.code) {
+        if (pd.code === feature.properties.code) {
           feature.properties = {
-            ...feature.properties,
+            name: feature.properties.name,
             ...pd
           }
         }
@@ -292,7 +320,7 @@ const mergePDData = async () => {
   }
 }
 
-mergePDData()
+// mergePDData()
 
 // const mergeData = category => {
 //   const parData = result.filter(d => d.stream === category)
@@ -306,10 +334,12 @@ mergePDData()
 //       code: category[0].par_code,
 //       name: category[0].parliament,
 //       effectiveVotePct: category[0].effective_vote_pct,
-//       // wonCoalition:
 //       categoryArr: _.map(streamGroups, streamGroup => {
 //         return {
-//           category: streamGroup[0].category,
+//           category:
+//             streamGroup[0].category === 'eldest'
+//               ? 'oldest'
+//               : streamGroup[0].category,
 //           categoryEffectiveVotesPct:
 //             streamGroup[0].category_effective_votes_pct,
 //           totalVote: streamGroup[0].total,
@@ -325,29 +355,61 @@ mergePDData()
 //     }
 //   })
 
-//   console.log(output[0]['categoryArr'][0]['result'])
+//   const test = []
+
+//   _.forEach(output, d => {
+//     _.forEach(ge14Race, j => {
+//       if (j.parCode === d.code) {
+//         const output = {
+//           ...d,
+//           malay: j.malay,
+//           chinese: j.chinese,
+//           indian: j.indian,
+//           muslimBumiputera: j.muslimBumiputera,
+//           'non-MuslimBumiputera': j['non-MuslimBumiputera'],
+//           sabahBumiputera: j.sabahBumiputera,
+//           others: j.others
+//         }
+
+//         test.push(output)
+//       }
+//     })
+//   })
+
+//   fs.writeFile('./output/abc.json', JSON.stringify(test), err => {
+//     if (err) throw err
+//     console.log('done')
+//   })
 // }
 
-// mergeData('par_all')
+const getList = () => {
+  const list = ge14Race.map(c => ({
+    name: c.name,
+    zhName: c.zhName,
+    value: c.parCode
+  }))
 
-const getList = async () => {
-  try {
-    const res = await axios.get('https://pages.malaysiakini.com/map/par.json')
-    const map = await res.data
+  fs.writeFile('./output/list.json', JSON.stringify(list), err => {
+    if (err) throw err
+    console.log('done')
+  })
 
-    const list = map.features.map(feature => ({
-      displayedValue: `${feature.properties.code} ${feature.properties.name}`,
-      name: feature.properties.name,
-      code: feature.properties.code
-    }))
+  // try {
+  //   const res = await axios.get('https://pages.malaysiakini.com/map/par.json')
+  //   const map = await res.data
 
-    fs.writeFile('./output/list.json', JSON.stringify(list), err => {
-      if (err) throw err
-      console.log('done')
-    })
-  } catch (error) {
-    console.log(error)
-  }
+  //   const list = map.features.map(feature => ({
+  //     name: feature.properties.name,
+  //     value: feature.properties.code
+  //   }))
+
+  //   fs.writeFile('./output/list.json', JSON.stringify(list), err => {
+  //     if (err) throw err
+  //     console.log('done')
+  //   })
+  // } catch (error) {
+  //   console.log(error)
+  // }
 }
 
 // getList()
