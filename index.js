@@ -75,68 +75,70 @@ const getGeoJSON = async () => {
   }
 }
 
-// const parseCategoryDataForMap = (constituency, category) => {
-//   if (category === 'youngest' || category === 'oldest') {
-//     if (_.includes(exemptedConstituency, constituency[0].par_code)) {
-//       return null
-//     }
-//   }
+const parseCategoryDataForPar = (constituency, category) => {
+  if (category === 'youngest' || category === 'oldest') {
+    if (_.includes(exemptedConstituency, constituency[0].par_code)) {
+      return null
+    }
+  }
 
-//   const constituencyFilteredByCategory = _.filter(constituency, [
-//     'category',
-//     category
-//   ])
+  const constituencyFilteredByCategory = _.filter(constituency, [
+    'category',
+    category
+  ])
 
-//   // get majority //
-//   const constituencySortedByVote = constituencyFilteredByCategory.sort(
-//     (a, b) => b.vote - a.vote
-//   )
+  // get majority //
+  const constituencySortedByVote = constituencyFilteredByCategory.sort(
+    (a, b) => b.vote - a.vote
+  )
 
-//   const majority =
-//     constituencySortedByVote[0].vote - constituencySortedByVote[1].vote
-//   // -------------------------------- //
+  const majority =
+    constituencySortedByVote[0].vote - constituencySortedByVote[1].vote
+  // -------------------------------- //
 
-//   const { won_party, won_coalition } = _.find(constituencySortedByVote, [
-//     'category',
-//     category
-//   ])
+  const { won_party, won_coalition } = _.find(constituencySortedByVote, [
+    'category',
+    category
+  ])
 
-//   if (category === 'par_total') {
-//     return {
-//       ge14WonParty: won_party,
-//       ge14WonCoalition: won_coalition,
-//       ge14Majority: majority,
-//       ge14Result: {
-//         totalVotes: constituencySortedByVote[0].total,
-//         categoryEffectiveVotesPct:
-//           constituencySortedByVote[0].category_effective_votes_pct,
-//         result: _.map(constituencySortedByVote, constituency => ({
-//           party: constituency.party,
-//           vote: constituency.vote,
-//           votePct: constituency.vote_pct
-//         }))
-//       }
-//     }
-//   }
+  if (category === 'par_total') {
+    return {
+      ge14WonParty: won_party,
+      ge14WonCoalition: won_coalition,
+      ge14Majority: majority,
+      ge14Result: {
+        totalVote: constituencySortedByVote[0].total,
+        categoryEffectiveVotePct:
+          constituencySortedByVote[0].category_effective_votes_pct,
+        result: _.map(constituencySortedByVote, constituency => ({
+          coalition: constituency.coalition,
+          party: constituency.party,
+          vote: constituency.vote,
+          votePct: constituency.vote_pct
+        }))
+      }
+    }
+  }
 
-//   return {
-//     [`${category}WonParty`]: won_party,
-//     [`${category}WonCoalition`]: won_coalition,
-//     [`${category}Majority`]: majority,
-//     [`${category}Result`]: {
-//       totalVotes: constituencySortedByVote[0].total,
-//       categoryEffectiveVotesPct:
-//         constituencySortedByVote[0].category_effective_votes_pct,
-//       result: _.map(constituencySortedByVote, constituency => ({
-//         party: constituency.party,
-//         vote: constituency.vote,
-//         votePct: constituency.vote_pct
-//       }))
-//     }
-//   }
-// }
+  return {
+    [`${category}WonParty`]: won_party,
+    [`${category}WonCoalition`]: won_coalition,
+    [`${category}Majority`]: majority,
+    [`${category}Result`]: {
+      totalVote: constituencySortedByVote[0].total,
+      categoryEffectiveVotePct:
+        constituencySortedByVote[0].category_effective_votes_pct,
+      result: _.map(constituencySortedByVote, constituency => ({
+        coalition: constituency.coalition,
+        party: constituency.party,
+        vote: constituency.vote,
+        votePct: constituency.vote_pct
+      }))
+    }
+  }
+}
 
-const parseCategoryDataForMap = (pd, category) => {
+const parseCategoryDataForPD = (pd, category) => {
   if (category === 'youngest' || category === 'oldest') {
     // if (_.includes(exemptedConstituency, constituency[0].par_code)) {
     //   return null
@@ -180,8 +182,10 @@ const parseCategoryDataForMap = (pd, category) => {
       ge14WonCoalition: won_coalition,
       ge14Majority: majority,
       ge14Result: {
-        totalVotes: pdSortedByVote[0].total,
+        totalVote: pdSortedByVote[0].total,
         categoryPct: pdSortedByVote[0].category_pct,
+        totalValidVote: pdSortedByVote[0].total_valid_votes,
+        stream: pdSortedByVote[0].stream,
         result: _.map(pdSortedByVote, constituency => ({
           coalition: constituency.coalition,
           party: constituency.party,
@@ -197,8 +201,10 @@ const parseCategoryDataForMap = (pd, category) => {
     [`${category}WonCoalition`]: won_coalition,
     [`${category}Majority`]: majority,
     [`${category}Result`]: {
-      totalVotes: pdSortedByVote[0].total,
+      totalVote: pdSortedByVote[0].total,
       categoryPct: pdSortedByVote[0].category_pct,
+      totalValidVote: pdSortedByVote[0].total_valid_votes,
+      stream: pdSortedByVote[0].stream,
       result: _.map(pdSortedByVote, constituency => ({
         coalition: constituency.coalition,
         party: constituency.party,
@@ -226,9 +232,11 @@ const mergeData = async category => {
     const parsedConstituencies = _.map(parGroups, constituency => ({
       code: constituency[0].par_code,
       effectiveVotePct: constituency[0].effective_vote_pct,
-      ...parseCategoryDataForMap(constituency, 'par_total'),
-      ...parseCategoryDataForMap(constituency, 'youngest'),
-      ...parseCategoryDataForMap(constituency, 'oldest')
+      effectiveVote: constituency[0].effective_vote,
+      totalValidVote: constituency[0].total_valid_votes,
+      ...parseCategoryDataForPar(constituency, 'par_total'),
+      ...parseCategoryDataForPar(constituency, 'youngest'),
+      ...parseCategoryDataForPar(constituency, 'oldest')
     }))
 
     const output = []
@@ -266,16 +274,16 @@ const mergeData = async category => {
       })
     })
 
-    fs.writeFile('./output/parliament.json', JSON.stringify(map), err => {
-      if (err) throw err
-      console.log('done')
-    })
+    // fs.writeFile('./output/parliament.json', JSON.stringify(map), err => {
+    //   if (err) throw err
+    //   console.log('done')
+    // })
   } catch (error) {
     console.log(error)
   }
 }
 
-mergeData('par_all')
+// mergeData('par_all')
 
 const mergePDData = async () => {
   try {
@@ -294,11 +302,13 @@ const mergePDData = async () => {
         pName: pd[0].parliament.toUpperCase(),
         code: pd[0].pd_code,
         state: pd[0].state.toUpperCase(),
-        ...parseCategoryDataForMap(pd, 'dm_total'),
-        ...parseCategoryDataForMap(pd, 'youngest'),
-        ...parseCategoryDataForMap(pd, 'oldest')
+        ...parseCategoryDataForPD(pd, 'dm_total'),
+        ...parseCategoryDataForPD(pd, 'youngest'),
+        ...parseCategoryDataForPD(pd, 'oldest')
       }
     })
+
+    // console.log(parsedPDs[0]);
 
     map.features.forEach(feature => {
       parsedPDs.forEach(pd => {
@@ -311,16 +321,18 @@ const mergePDData = async () => {
       })
     })
 
-    fs.writeFile('./output/polling-district.json', JSON.stringify(map), err => {
-      if (err) throw err
-      console.log('done')
-    })
+    console.log(map.features.length)
+
+    // fs.writeFile('./output/polling-district.json', JSON.stringify(map), err => {
+    //   if (err) throw err
+    //   console.log('done')
+    // })
   } catch (error) {
     console.log(error)
   }
 }
 
-// mergePDData()
+mergePDData()
 
 // const mergeData = category => {
 //   const parData = result.filter(d => d.stream === category)
@@ -386,7 +398,8 @@ const getList = () => {
   const list = ge14Race.map(c => ({
     name: c.name,
     zhName: c.zhName,
-    value: c.parCode
+    value: c.parCode,
+    state: c.state
   }))
 
   fs.writeFile('./output/list.json', JSON.stringify(list), err => {
