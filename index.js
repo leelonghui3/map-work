@@ -36,7 +36,7 @@ const getData = async () => {
           name: d.name,
           zhName: d.zhName
         }))
-        .uniq()
+        .uniqBy('id')
         .value()
 
       parsedData.push({
@@ -46,6 +46,8 @@ const getData = async () => {
         stations
       })
     })
+
+    // console.log(parsedData)
 
     fs.writeFile(
       './output/weather-stations.json',
