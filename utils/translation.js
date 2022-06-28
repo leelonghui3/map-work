@@ -122,5 +122,107 @@ const translateCoallition = (coallition, lang) => {
   }
 }
 
+const translateState = (lang, state) => {
+  if (lang === 'zh') {
+    if (state.toLocaleLowerCase() === 'johor') {
+      return '柔佛'
+    }
+    if (state.toLocaleLowerCase() === 'kuala lumpur') {
+      return '吉隆坡'
+    }
+    if (
+      state.toLocaleLowerCase() === 'federal territory' ||
+      state.toLocaleLowerCase() === 'federal territories'
+    ) {
+      return '联邦直辖区'
+    }
+    if (state.toLocaleLowerCase() === 'kedah') {
+      return '吉打'
+    }
+    if (state.toLocaleLowerCase() === 'kelantan') {
+      return '吉兰丹'
+    }
+    if (state.toLocaleLowerCase() === 'labuan') {
+      return '纳闽'
+    }
+    if (
+      state.toLocaleLowerCase() === 'melaka' ||
+      state.toLocaleLowerCase() === 'malacca'
+    ) {
+      return '马六甲'
+    }
+    if (
+      state.toLocaleLowerCase() === 'n sembilan' ||
+      state.toLocaleLowerCase() === 'negeri sembilan'
+    ) {
+      return '森美兰'
+    }
+    if (state.toLocaleLowerCase() === 'pahang') {
+      return '彭亨'
+    }
+    if (state.toLocaleLowerCase() === 'perak') {
+      return '霹雳'
+    }
+    if (state.toLocaleLowerCase() === 'perlis') {
+      return '玻璃市'
+    }
+    if (
+      state.toLocaleLowerCase() === 'penang' ||
+      state.toLocaleLowerCase() === 'p pinang'
+    ) {
+      return '槟城'
+    }
+    if (state.toLocaleLowerCase() === 'putrajaya') {
+      return '布城'
+    }
+    if (state.toLocaleLowerCase() === 'sabah') {
+      return '沙巴'
+    }
+    if (state.toLocaleLowerCase() === 'sarawak') {
+      return '砂拉越'
+    }
+    if (state.toLocaleLowerCase() === 'selangor') {
+      return '雪兰莪'
+    }
+    if (state.toLocaleLowerCase() === 'terengganu') {
+      return '登嘉楼'
+    }
+  }
+
+  if (lang === 'ms') {
+    if (
+      state.toLocaleLowerCase() === 'penang' ||
+      state.toLocaleLowerCase() === 'p pinang'
+    ) {
+      return 'Pulau Pinang'
+    }
+    if (
+      state.toLocaleLowerCase() === 'federal territory' ||
+      state === 'federal territories'
+    ) {
+      return 'Wilayah Persekutuan'
+    }
+    if (state.toLocaleLowerCase() === 'malacca') {
+      return 'Melaka'
+    }
+  }
+
+  if (lang === 'en') {
+    if (
+      state.toLocaleLowerCase() === 'federal territory' ||
+      state === 'federal territories'
+    ) {
+      return 'FT'
+    }
+
+    if (state.toLocaleLowerCase() === 'melaka') {
+      return 'Malacca'
+    }
+  }
+
+  return state
+}
+
 exports.translateParty = translateParty
 exports.translateCoallition = translateCoallition
+exports.translateState = translateState
