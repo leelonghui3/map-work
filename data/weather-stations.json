@@ -1,0 +1,412 @@
+[
+  {
+    "id": 48600,
+    "name": "Pulau Langkawi",
+    "state": "Kedah",
+    "zhName": "浮罗交怡",
+    "latitude": "6° 20'",
+    "longitude": "99° 44'",
+    "coordinates": "6.333333, 99.733333",
+    "isAirport": true
+  },
+  {
+    "id": 48601,
+    "name": "Bayan Lepas",
+    "state": "Penang",
+    "zhName": "峇六拜",
+    "latitude": "5° 17' 49\"",
+    "longitude": "100° 16' 20\"",
+    "coordinates": "5.296944, 100.272222",
+    "isAirport": true
+  },
+  {
+    "id": 48602,
+    "name": "Butterworth",
+    "state": "Penang",
+    "zhName": "北海",
+    "latitude": "5° 27' 26\"",
+    "longitude": "100° 23' 18\"",
+    "coordinates": "5.457222, 100.388333",
+    "isAirport": false
+  },
+  {
+    "id": 48603,
+    "name": "Alor Setar",
+    "state": "Kedah",
+    "zhName": "亚罗士打",
+    "latitude": "6° 12'",
+    "longitude": "100° 24'",
+    "coordinates": "6.200000, 100.400000",
+    "isAirport": true
+  },
+  {
+    "id": 48604,
+    "name": "Chuping",
+    "state": "Perlis",
+    "zhName": "朱宾",
+    "latitude": "6° 29'",
+    "longitude": "100° 16'",
+    "coordinates": "6.483333, 100.266667",
+    "isAirport": false
+  },
+  {
+    "id": 48615,
+    "name": "Kota Bharu",
+    "state": "Kelantan",
+    "zhName": "哥打峇鲁",
+    "latitude": "6° 09' 49\"",
+    "longitude": "102° 18' 02\"",
+    "coordinates": "6.163611, 102.300556",
+    "isAirport": true
+  },
+  {
+    "id": 48616,
+    "name": "Kuala Krai",
+    "state": "Kelantan",
+    "zhName": "瓜拉吉赖",
+    "latitude": "5° 32'",
+    "longitude": "102° 12'",
+    "coordinates": "5.533333, 102.200000",
+    "isAirport": false
+  },
+  {
+    "id": 48617,
+    "name": "Gong Kedak",
+    "state": "Kelantan",
+    "zhName": "贡格达",
+    "latitude": "5° 47' 48\"",
+    "longitude": "102° 29' 06\"",
+    "coordinates": "5.796667, 102.485000",
+    "isAirport": true
+  },
+  {
+    "id": 48618,
+    "name": "Kuala Terengganu",
+    "state": "Terengganu",
+    "zhName": "瓜拉登嘉楼",
+    "latitude": "5° 23'",
+    "longitude": "103° 06'",
+    "coordinates": "5.383333, 103.100000",
+    "isAirport": true
+  },
+  {
+    "id": 48614,
+    "name": "Kerteh",
+    "state": "Terengganu",
+    "zhName": "居茶",
+    "latitude": "4° 32' 14\"",
+    "longitude": "103° 25' 36\"",
+    "coordinates": "4.537222, 103.426667",
+    "isAirport": true
+  },
+  {
+    "id": 48620,
+    "name": "Sitiawan",
+    "state": "Perak",
+    "zhName": "实兆远",
+    "latitude": "4° 13' 16\"",
+    "longitude": "100° 42' 04\"",
+    "coordinates": "4.221111, 100.701111",
+    "isAirport": false
+  },
+  {
+    "id": 48623,
+    "name": "Lubok Merbau",
+    "state": "Perak",
+    "zhName": "鲁博马鲍",
+    "latitude": "4° 47' 40\"",
+    "longitude": "100° 53' 50\"",
+    "coordinates": "4.794444, 100.897222",
+    "isAirport": false
+  },
+  {
+    "id": 48625,
+    "name": "Ipoh",
+    "state": "Perak",
+    "zhName": "怡保",
+    "latitude": "4° 34'",
+    "longitude": "101° 06'",
+    "coordinates": "4.566667, 101.100000",
+    "isAirport": true
+  },
+  {
+    "id": 48632,
+    "name": "Cameron Highlands",
+    "state": "Pahang",
+    "zhName": "金马仑",
+    "latitude": "4° 28'",
+    "longitude": "101° 22'",
+    "coordinates": "4.466667, 101.366667",
+    "isAirport": false
+  },
+  {
+    "id": 48642,
+    "name": "Batu Embun",
+    "state": "Pahang",
+    "zhName": "巴都恩布",
+    "latitude": "3° 58'",
+    "longitude": "102° 21'",
+    "coordinates": "3.966667, 102.350000",
+    "isAirport": false
+  },
+  {
+    "id": 48647,
+    "name": "Subang",
+    "state": "Selangor",
+    "zhName": "梳邦",
+    "latitude": "3° 07' 50\"",
+    "longitude": "101° 33' 09\"",
+    "coordinates": "3.130556, 101.552500",
+    "isAirport": true
+  },
+  {
+    "id": 48649,
+    "name": "Muadzam Shah",
+    "state": "Pahang",
+    "zhName": "姆阿占沙",
+    "latitude": "3° 03'",
+    "longitude": "103° 05'",
+    "coordinates": "3.050000, 103.083333",
+    "isAirport": false
+  },
+  {
+    "id": 48650,
+    "name": "KLIA Sepang",
+    "state": "Selangor",
+    "zhName": "雪邦吉隆坡国际机场",
+    "latitude": "2° 43' 51\"",
+    "longitude": "101° 42' 11\"",
+    "coordinates": "2.730833, 101.703056",
+    "isAirport": true
+  },
+  {
+    "id": 48651,
+    "name": "Kuala Pilah",
+    "state": "N Sembilan",
+    "zhName": "瓜拉庇劳",
+    "latitude": "2° 43' 37\"",
+    "longitude": "102° 14' 56\"",
+    "coordinates": "2.726944, 102.248889",
+    "isAirport": false
+  },
+  {
+    "id": 48653,
+    "name": "Temerloh",
+    "state": "Pahang",
+    "zhName": "淡马鲁",
+    "latitude": "3° 28'",
+    "longitude": "102° 23'",
+    "coordinates": "3.466667, 102.383333",
+    "isAirport": false
+  },
+  {
+    "id": 48657,
+    "name": "Kuantan",
+    "state": "Pahang",
+    "zhName": "关丹",
+    "latitude": "3° 46' 20\"",
+    "longitude": "103° 12' 43\"",
+    "coordinates": "3.772222, 103.211944",
+    "isAirport": true
+  },
+  {
+    "id": 48665,
+    "name": "Melaka",
+    "state": "Melaka",
+    "zhName": "马六甲",
+    "latitude": "2° 16'",
+    "longitude": "102° 15'",
+    "coordinates": "2.266667, 102.250000",
+    "isAirport": false
+  },
+  {
+    "id": 48670,
+    "name": "Batu Pahat",
+    "state": "Johor",
+    "zhName": "峇株巴辖",
+    "latitude": "1° 52'",
+    "longitude": "102° 59'",
+    "coordinates": "1.866667, 102.983333",
+    "isAirport": false
+  },
+  {
+    "id": 48672,
+    "name": "Kluang",
+    "state": "Johor",
+    "zhName": "居銮",
+    "latitude": "2° 01'",
+    "longitude": "103° 19'",
+    "coordinates": "2.016667, 103.316667",
+    "isAirport": false
+  },
+  {
+    "id": 48674,
+    "name": "Mersing",
+    "state": "Johor",
+    "zhName": "丰盛港",
+    "latitude": "2° 26' 42\"",
+    "longitude": "103° 50' 00\"",
+    "coordinates": "2.445000, 103.833333",
+    "isAirport": false
+  },
+  {
+    "id": 48679,
+    "name": "Senai",
+    "state": "Johor",
+    "zhName": "士乃",
+    "latitude": "1° 38'",
+    "longitude": "103° 40'",
+    "coordinates": "1.633333, 103.666667",
+    "isAirport": true
+  },
+  {
+    "id": 96413,
+    "name": "Kuching",
+    "state": "Sarawak",
+    "zhName": "古晋",
+    "latitude": "1° 29' 25\"",
+    "longitude": "110° 21' 09\"",
+    "coordinates": "1.490278, 110.352500",
+    "isAirport": true
+  },
+  {
+    "id": 96418,
+    "name": "Sri Aman",
+    "state": "Sarawak",
+    "zhName": "斯里阿曼",
+    "latitude": "1° 13'",
+    "longitude": "111° 27'",
+    "coordinates": "1.216667, 111.450000",
+    "isAirport": false
+  },
+  {
+    "id": 96420,
+    "name": "Kapit",
+    "state": "Sarawak",
+    "zhName": "加帛",
+    "latitude": "2° 00' 31\"",
+    "longitude": "112° 55' 31\"",
+    "coordinates": "2.008611, 112.925278",
+    "isAirport": false
+  },
+  {
+    "id": 96421,
+    "name": "Sibu",
+    "state": "Sarawak",
+    "zhName": "诗巫",
+    "latitude": "2° 15'",
+    "longitude": "111° 58'",
+    "coordinates": "2.250000, 111.966667",
+    "isAirport": true
+  },
+  {
+    "id": 96441,
+    "name": "Bintulu",
+    "state": "Sarawak",
+    "zhName": "民都鲁",
+    "latitude": "3° 07' 12\"",
+    "longitude": "113° 01' 29\"",
+    "coordinates": "3.120000, 113.024722",
+    "isAirport": true
+  },
+  {
+    "id": 96449,
+    "name": "Miri",
+    "state": "Sarawak",
+    "zhName": "美里",
+    "latitude": "4° 20'",
+    "longitude": "113° 59'",
+    "coordinates": "4.333333, 113.983333",
+    "isAirport": true
+  },
+  {
+    "id": 96450,
+    "name": "Limbang",
+    "state": "Sarawak",
+    "zhName": "林梦",
+    "latitude": "4° 48' 35\"",
+    "longitude": "115° 00' 15\"",
+    "coordinates": "4.809722, 115.004167",
+    "isAirport": true
+  },
+  {
+    "id": 96465,
+    "name": "Labuan",
+    "state": "Sabah",
+    "zhName": "纳闽",
+    "latitude": "5° 18' 27\"",
+    "longitude": "115° 14' 33\"",
+    "coordinates": "5.307500, 115.242500",
+    "isAirport": true
+  },
+  {
+    "id": 96467,
+    "name": "Keningau",
+    "state": "Sabah",
+    "zhName": "根地咬",
+    "latitude": "5° 20' 14\"",
+    "longitude": "116° 08' 11\"",
+    "coordinates": "5.337222, 116.136389",
+    "isAirport": false
+  },
+  {
+    "id": 96469,
+    "name": "Ranau",
+    "state": "Sabah",
+    "zhName": "兰瑙",
+    "latitude": "5° 57' 21\"",
+    "longitude": "116° 40' 44\"",
+    "coordinates": "5.955833, 116.678889",
+    "isAirport": false
+  },
+  {
+    "id": 96471,
+    "name": "Kota Kinabalu",
+    "state": "Sabah",
+    "zhName": "亚庇",
+    "latitude": "5° 55' 57\"",
+    "longitude": "116° 02' 51\"",
+    "coordinates": "5.932500, 116.047500",
+    "isAirport": true
+  },
+  {
+    "id": 96477,
+    "name": "Kudat",
+    "state": "Sabah",
+    "zhName": "古达",
+    "latitude": "6° 55'",
+    "longitude": "116° 50'",
+    "coordinates": "6.916667, 116.833333",
+    "isAirport": false
+  },
+  {
+    "id": 96481,
+    "name": "Tawau",
+    "state": "Sabah",
+    "zhName": "斗湖",
+    "latitude": "4° 18' 58\"",
+    "longitude": "118° 07' 08\"",
+    "coordinates": "4.316111, 118.118889",
+    "isAirport": true
+  },
+  {
+    "id": 96491,
+    "name": "Sandakan",
+    "state": "Sabah",
+    "zhName": "山打根",
+    "latitude": "5° 53' 57\"",
+    "longitude": "118° 03' 59\"",
+    "coordinates": "5.899167, 118.066389",
+    "isAirport": true
+  },
+  {
+    "id": 96448,
+    "name": "Mulu",
+    "state": "Sarawak",
+    "zhName": "姆鲁",
+    "latitude": "4° 02' 55\"",
+    "longitude": "114° 48' 36\"",
+    "coordinates": "4.048611, 114.810000",
+    "isAirport": true
+  }
+]

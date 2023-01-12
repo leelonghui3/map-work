@@ -124,98 +124,95 @@ const translateCoallition = (coallition, lang) => {
 
 const translateState = (lang, state) => {
   if (lang === 'zh') {
-    if (state.toLocaleLowerCase() === 'johor') {
+    if (state.toLowerCase() === 'johor') {
       return '柔佛'
     }
-    if (state.toLocaleLowerCase() === 'kuala lumpur') {
+    if (state.toLowerCase() === 'kuala lumpur') {
       return '吉隆坡'
     }
     if (
-      state.toLocaleLowerCase() === 'federal territory' ||
-      state.toLocaleLowerCase() === 'federal territories'
+      state.toLowerCase() === 'federal territory' ||
+      state.toLowerCase() === 'federal territories'
     ) {
       return '联邦直辖区'
     }
-    if (state.toLocaleLowerCase() === 'kedah') {
+    if (state.toLowerCase() === 'kedah') {
       return '吉打'
     }
-    if (state.toLocaleLowerCase() === 'kelantan') {
+    if (state.toLowerCase() === 'kelantan') {
       return '吉兰丹'
     }
-    if (state.toLocaleLowerCase() === 'labuan') {
+    if (state.toLowerCase() === 'labuan') {
       return '纳闽'
     }
-    if (
-      state.toLocaleLowerCase() === 'melaka' ||
-      state.toLocaleLowerCase() === 'malacca'
-    ) {
+    if (state.toLowerCase() === 'melaka' || state.toLowerCase() === 'malacca') {
       return '马六甲'
     }
     if (
-      state.toLocaleLowerCase() === 'n sembilan' ||
-      state.toLocaleLowerCase() === 'negeri sembilan'
+      state.toLowerCase() === 'n sembilan' ||
+      state.toLowerCase() === 'negeri sembilan'
     ) {
       return '森美兰'
     }
-    if (state.toLocaleLowerCase() === 'pahang') {
+    if (state.toLowerCase() === 'pahang') {
       return '彭亨'
     }
-    if (state.toLocaleLowerCase() === 'perak') {
+    if (state.toLowerCase() === 'perak') {
       return '霹雳'
     }
-    if (state.toLocaleLowerCase() === 'perlis') {
+    if (state.toLowerCase() === 'perlis') {
       return '玻璃市'
     }
     if (
-      state.toLocaleLowerCase() === 'penang' ||
-      state.toLocaleLowerCase() === 'p pinang'
+      state.toLowerCase() === 'penang' ||
+      state.toLowerCase() === 'p pinang'
     ) {
       return '槟城'
     }
-    if (state.toLocaleLowerCase() === 'putrajaya') {
+    if (state.toLowerCase() === 'putrajaya') {
       return '布城'
     }
-    if (state.toLocaleLowerCase() === 'sabah') {
+    if (state.toLowerCase() === 'sabah') {
       return '沙巴'
     }
-    if (state.toLocaleLowerCase() === 'sarawak') {
+    if (state.toLowerCase() === 'sarawak') {
       return '砂拉越'
     }
-    if (state.toLocaleLowerCase() === 'selangor') {
+    if (state.toLowerCase() === 'selangor') {
       return '雪兰莪'
     }
-    if (state.toLocaleLowerCase() === 'terengganu') {
+    if (state.toLowerCase() === 'terengganu') {
       return '登嘉楼'
     }
   }
 
   if (lang === 'ms') {
     if (
-      state.toLocaleLowerCase() === 'penang' ||
-      state.toLocaleLowerCase() === 'p pinang'
+      state.toLowerCase() === 'penang' ||
+      state.toLowerCase() === 'p pinang'
     ) {
       return 'Pulau Pinang'
     }
     if (
-      state.toLocaleLowerCase() === 'federal territory' ||
+      state.toLowerCase() === 'federal territory' ||
       state === 'federal territories'
     ) {
       return 'Wilayah Persekutuan'
     }
-    if (state.toLocaleLowerCase() === 'malacca') {
+    if (state.toLowerCase() === 'malacca') {
       return 'Melaka'
     }
   }
 
   if (lang === 'en') {
     if (
-      state.toLocaleLowerCase() === 'federal territory' ||
+      state.toLowerCase() === 'federal territory' ||
       state === 'federal territories'
     ) {
       return 'FT'
     }
 
-    if (state.toLocaleLowerCase() === 'melaka') {
+    if (state.toLowerCase() === 'melaka') {
       return 'Malacca'
     }
   }
